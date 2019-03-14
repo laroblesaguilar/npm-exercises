@@ -1,0 +1,30 @@
+{
+  "name": "npm-exercises",
+  "version": "1.0.0",
+  "description": "npm-exercises",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laroblesaguilar/npm-exercises.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laroblesaguilar/npm-exercises/issues"
+  },
+  "homepage": "https://github.com/laroblesaguilar/npm-exercises#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "jquery": "^3.3.1",
+    "webpack": "^4.29.6"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.2.3"
+  }
+}
